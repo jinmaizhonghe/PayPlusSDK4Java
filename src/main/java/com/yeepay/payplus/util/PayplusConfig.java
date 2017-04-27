@@ -14,7 +14,7 @@ public class PayplusConfig {
 
     public static final String DATE_FORMAT = "yyyy-MM-dd HH:mm:ss";
 
-    public static final String GENERAL_URL = "http://payplus.yeepay.com";
+    public static final String GENERAL_URL = "http://qm.jia007.com";
 
     /**
      * 测试用户-1
