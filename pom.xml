@@ -4,31 +4,32 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.yeepay</groupId>
-    <artifactId>pp-sdk</artifactId>
-    <version>1.2</version>
+    <groupId>com.jia007</groupId>
+    <artifactId>qm-pp-sdk</artifactId>
+    <version>1.3</version>
 
     <packaging>jar</packaging>
 
     <developers>
         <developer>
-            <name>Marco Jan</name>
-            <email>marcojan11@outlook.com</email>
-            <organization>Yeepay</organization>
-            <organizationUrl>http://www.yeepay.com</organizationUrl>
+            <name>jinmaizhonghe</name>
+            <email>617985165@qq.com</email>
+            <organization>QianMai</organization>
+            <organizationUrl>https://www.jia007.com</organizationUrl>
         </developer>
     </developers>
 
     <scm>
         <connection>
-            scm:git:https://github.com/sharq34/pp-sdk.git
+            scm:git:https://github.com/jinmaizhonghe/PayPlusSDK4Java.git
         </connection>
         <developerConnection>
-            scm:git:https://github.com/sharq34/pp-sdk.git
+            scm:git:https://github.com/jinmaizhonghe/PayPlusSDK4Java.git
         </developerConnection>
-        <url>https://github.com/sharq34/pp-sdk</url>
-        <tag>1.2</tag>
+        <url>https://github.com/jinmaizhonghe/PayPlusSDK4Java</url>
+        <tag>1.3</tag>
     </scm>
+
 
     <distributionManagement>
         <snapshotRepository>
@@ -150,7 +151,7 @@
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>Payplus' SDK for Developers quickly bridging their project and Payment package.</description>
-    <url>https://github.com/sharq34/pp-sdk</url>
+    <url>https://github.com/jinmaizhonghe/PayPlusSDK4Java</url>
 
     <licenses>
         <license>
@@ -161,14 +162,14 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.yeepay.g3.yop</groupId>
+            <groupId>com.yeepay.g3.utils</groupId>
             <artifactId>yeepay-utils-common</artifactId>
-            <version>1.0</version>
+            <version>3.0.2</version>
         </dependency>
         <dependency>
             <groupId>com.yeepay.g3.yop</groupId>
             <artifactId>yop-sdk</artifactId>
-            <version>1.2</version>
+            <version>1.0</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
