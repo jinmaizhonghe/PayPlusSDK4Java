@@ -11,14 +11,14 @@
 
 ### 准备工作
 
-1. 在pom.xml里添加依赖。该版本正在维护,不建议再使用
+1. 在pom.xml里添加依赖。
 
    ```xml
     <dependencies>
         <dependency>
             <groupId>com.yeepay</groupId>
-            <artifactId>pp-sdk</artifactId>
-            <version>1.2</version>
+            <artifactId>qm-sdk</artifactId>
+            <version>1.0</version>
         </dependency>
     </dependencies>
    ```

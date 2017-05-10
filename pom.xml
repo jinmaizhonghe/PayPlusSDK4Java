@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.jia007</groupId>
-    <artifactId>qm-pp-sdk</artifactId>
-    <version>1.3</version>
+    <artifactId>qm-sdk</artifactId>
+    <version>1.0</version>
 
     <packaging>jar</packaging>
 
@@ -27,7 +27,7 @@
             scm:git:https://github.com/jinmaizhonghe/PayPlusSDK4Java.git
         </developerConnection>
         <url>https://github.com/jinmaizhonghe/PayPlusSDK4Java</url>
-        <tag>1.3</tag>
+        <tag>1.0</tag>
     </scm>
 
 
