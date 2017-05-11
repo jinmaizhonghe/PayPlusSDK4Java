@@ -1,4 +1,4 @@
-package com.jia007.payplus.util;
+package com.jia007.util;
 
 /**
  * Created by Marco on 16/12/2016.

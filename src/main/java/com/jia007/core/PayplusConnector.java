@@ -1,6 +1,6 @@
-package com.jia007.payplus.core;
+package com.jia007.core;
 
-import com.jia007.payplus.util.PayplusConfig;
+import com.jia007.util.PayplusConfig;
 import com.yeepay.g3.sdk.yop.client.YopClient;
 import com.yeepay.g3.sdk.yop.client.YopRequest;
 import com.yeepay.g3.sdk.yop.client.YopResponse;
@@ -8,10 +8,10 @@ import com.yeepay.g3.sdk.yop.error.YopError;
 import com.yeepay.g3.sdk.yop.error.YopSubError;
 import com.yeepay.g3.utils.common.json.JSONException;
 import com.yeepay.g3.utils.common.json.JSONObject;
-import com.jia007.payplus.bo.BaseBO;
-import com.jia007.payplus.core.entity.PayplusResp;
-import com.jia007.payplus.exception.PayplusConfigException;
-import com.jia007.payplus.util.PayplusUtil;
+import com.jia007.bo.BaseBO;
+import com.jia007.core.entity.PayplusResp;
+import com.jia007.exception.PayplusConfigException;
+import com.jia007.util.PayplusUtil;
 import org.apache.commons.beanutils.PropertyUtilsBean;
 import org.apache.log4j.Logger;
 

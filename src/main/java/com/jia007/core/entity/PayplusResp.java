@@ -1,6 +1,6 @@
-package com.jia007.payplus.core.entity;
+package com.jia007.core.entity;
 
-import com.jia007.payplus.util.PayplusUtil;
+import com.jia007.util.PayplusUtil;
 import org.apache.log4j.Logger;
 
 

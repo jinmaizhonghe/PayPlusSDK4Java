@@ -1,9 +1,9 @@
-package com.jia007.payplus.util;
+package com.jia007.util;
 
-import com.jia007.payplus.exception.QRCodeException;
+import com.jia007.exception.QRCodeException;
 import com.yeepay.g3.utils.common.json.JSONArray;
 import com.yeepay.g3.utils.common.json.JSONObject;
-import com.jia007.payplus.core.entity.PayplusResp;
+import com.jia007.core.entity.PayplusResp;
 import org.apache.log4j.Logger;
 
 import javax.imageio.ImageIO;

@@ -1,6 +1,6 @@
-package com.jia007.payplus.util;
+package com.jia007.util;
 
-import com.jia007.payplus.exception.PayplusConfigException;
+import com.jia007.exception.PayplusConfigException;
 
 import java.io.*;
 import java.util.MissingResourceException;

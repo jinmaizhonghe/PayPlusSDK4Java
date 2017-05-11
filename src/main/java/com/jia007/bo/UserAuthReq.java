@@ -1,28 +1,14 @@
-package com.jia007.payplus.bo;
+package com.jia007.bo;
 
 /**
- * Created by Marco on 21/12/2016.
+ * Created by Marco on 23/12/2016.
  */
-public class UserVerifyPWDReq extends BaseBO {
-
-    public static final String TOKENBIZTYPE_TRANSFER = "TRANSFER";
-    public static final String TOKENBIZTYPE_WITHDRAW = "WITHDRAW";
-    public static final String TOKENBIZTYPE_UN_BIND_CARD = "UN_BIND_CARD";
+public class UserAuthReq extends BaseBO{
 
     private String merchantNo;
     private String merchantUserId;
-    private String webCallBackUrl;
-    private String tokenBizType;
+    private String webCallbackUrl;
     private String returnUrl;
-    private String clientSource;
-
-    public String getTokenBizType() {
-        return tokenBizType;
-    }
-
-    public void setTokenBizType(String tokenBizType) {
-        this.tokenBizType = tokenBizType;
-    }
 
     public String getMerchantNo() {
         return merchantNo;
@@ -40,12 +26,12 @@ public class UserVerifyPWDReq extends BaseBO {
         this.merchantUserId = merchantUserId;
     }
 
-    public String getWebCallBackUrl() {
-        return webCallBackUrl;
+    public String getWebCallbackUrl() {
+        return webCallbackUrl;
     }
 
-    public void setWebCallBackUrl(String webCallBackUrl) {
-        this.webCallBackUrl = webCallBackUrl;
+    public void setWebCallbackUrl(String webCallbackUrl) {
+        this.webCallbackUrl = webCallbackUrl;
     }
 
     public String getReturnUrl() {
@@ -56,6 +42,8 @@ public class UserVerifyPWDReq extends BaseBO {
         this.returnUrl = returnUrl;
     }
 
+    private String clientSource;
+
     public String getClientSource() {
         return clientSource;
     }
@@ -64,3 +52,4 @@ public class UserVerifyPWDReq extends BaseBO {
         this.clientSource = clientSource;
     }
 }
+

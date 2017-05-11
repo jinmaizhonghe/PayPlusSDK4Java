@@ -1,4 +1,4 @@
-package com.jia007.payplus.bo;
+package com.jia007.bo;
 
 /**
  * Created by Marco on 06/01/2017.

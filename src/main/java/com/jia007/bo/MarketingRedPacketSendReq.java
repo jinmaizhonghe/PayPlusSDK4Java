@@ -1,14 +1,15 @@
-package com.jia007.payplus.bo;
+package com.jia007.bo;
 
 /**
- * Created by Marco on 15/12/2016.
+ * Created by Marco on 16/12/2016.
  */
-public class UserRegisterReq extends BaseBO{
+public class MarketingRedPacketSendReq extends BaseBO{
 
+    private String activeNo;
     private String merchantNo;
     private String merchantUserId;
 
-    public UserRegisterReq() {
+    public MarketingRedPacketSendReq() {
     }
 
     public String getMerchantNo() {
@@ -27,10 +28,18 @@ public class UserRegisterReq extends BaseBO{
         this.merchantUserId = merchantUserId;
     }
 
-    public UserRegisterReq(String requestNo, String merchantNo, String merchantUserId) {
-        super.setRequestNo(requestNo);
+    public MarketingRedPacketSendReq(String merchantNo, String merchantUserId, String activeNo) {
         this.merchantNo = merchantNo;
         this.merchantUserId = merchantUserId;
+
+        this.activeNo = activeNo;
     }
 
+    public String getActiveNo() {
+        return activeNo;
+    }
+
+    public void setActiveNo(String activeNo) {
+        this.activeNo = activeNo;
+    }
 }
