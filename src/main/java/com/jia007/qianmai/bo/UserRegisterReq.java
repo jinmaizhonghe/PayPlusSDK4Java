@@ -1,15 +1,14 @@
-package com.jia007.bo;
+package com.jia007.qianmai.bo;
 
 /**
- * Created by Marco on 16/12/2016.
+ * Created by Marco on 15/12/2016.
  */
-public class MarketingRedPacketSendReq extends BaseBO{
+public class UserRegisterReq extends BaseBO{
 
-    private String activeNo;
     private String merchantNo;
     private String merchantUserId;
 
-    public MarketingRedPacketSendReq() {
+    public UserRegisterReq() {
     }
 
     public String getMerchantNo() {
@@ -28,18 +27,10 @@ public class MarketingRedPacketSendReq extends BaseBO{
         this.merchantUserId = merchantUserId;
     }
 
-    public MarketingRedPacketSendReq(String merchantNo, String merchantUserId, String activeNo) {
+    public UserRegisterReq(String requestNo, String merchantNo, String merchantUserId) {
+        super.setRequestNo(requestNo);
         this.merchantNo = merchantNo;
         this.merchantUserId = merchantUserId;
-
-        this.activeNo = activeNo;
     }
 
-    public String getActiveNo() {
-        return activeNo;
-    }
-
-    public void setActiveNo(String activeNo) {
-        this.activeNo = activeNo;
-    }
 }

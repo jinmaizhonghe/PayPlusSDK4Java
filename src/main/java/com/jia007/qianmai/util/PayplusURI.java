@@ -1,4 +1,4 @@
-package com.jia007.util;
+package com.jia007.qianmai.util;
 
 /**
  * Created by Marco on 16/12/2016.

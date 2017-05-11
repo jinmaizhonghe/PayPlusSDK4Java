@@ -1,4 +1,4 @@
-package com.jia007.bo;
+package com.jia007.qianmai.bo;
 
 /**
  * Created by Marco on 26/12/2016.

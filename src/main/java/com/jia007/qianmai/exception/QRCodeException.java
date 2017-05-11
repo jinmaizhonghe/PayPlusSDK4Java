@@ -1,4 +1,4 @@
-package com.jia007.exception;
+package com.jia007.qianmai.exception;
 
 /**
  * Created by Marco on 19/12/2016.
