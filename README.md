@@ -16,7 +16,7 @@
    ```xml
     <dependencies>
         <dependency>
-            <groupId>com.yeepay</groupId>
+            <groupId>com.jia007</groupId>
             <artifactId>qm-sdk</artifactId>
             <version>1.0</version>
         </dependency>
