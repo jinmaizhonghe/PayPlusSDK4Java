@@ -75,6 +75,9 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
                 <version>3.0.0</version>
+                <configuration>
+                    <createDependencyReducedPom>false</createDependencyReducedPom>
+                </configuration>
                 <executions>
                     <execution>
                         <phase>package</phase>
@@ -82,10 +85,10 @@
                             <goal>shade</goal>
                         </goals>
                         <configuration>
-                            <!--
-                            <shadedArtifactAttached>true</shadedArtifactAttached>
-                            <shadedClassifierName>allinone</shadedClassifierName>
-                            -->
+                            <!--&lt;!&ndash;-->
+                            <!--<shadedArtifactAttached>true</shadedArtifactAttached>-->
+                            <!--<shadedClassifierName>allinone</shadedClassifierName>-->
+                            <!--&ndash;&gt;-->
                             <artifactSet>
                                 <includes>
                                     <include>com.yeepay.g3.yop:yeepay-utils-common</include>
